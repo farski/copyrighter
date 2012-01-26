@@ -5,8 +5,8 @@ Gem::Specification.new do |gem|
   gem.authors       = ["Chris Kalafarski"]
   gem.email         = ["chris@farski.com"]
   gem.description   = %q{Conveniently output copyright date ranges}
-  gem.summary       = %q{}
-  gem.homepage      = ""
+  gem.summary       = %q{Helper method for printed copyright dates, like "Copyright 1999-2012"}
+  gem.homepage      = 'https://github.com/farski/copyrighter'
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n")
