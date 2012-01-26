@@ -4,7 +4,7 @@ Handy way to print out copyright dates, like in a footer.
 
 Assuming it's 2012,
 
-© 2012 will print "2012"
+<%= © 2012 %> will print "2012"
 
 Next year it will automatically change to "2012 - 2013"
 
