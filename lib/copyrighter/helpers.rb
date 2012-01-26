@@ -9,5 +9,6 @@ module Copyrighter
         else [period, Time.now.year]
       end.compact.join(joiner)
     end
-    end
+    alias :copyright :©
+  end
 end

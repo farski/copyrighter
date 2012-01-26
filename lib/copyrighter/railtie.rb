@@ -1,4 +1,4 @@
-require './copyrighter/helpers'
+require 'copyrighter/helpers'
 module Copyrighter
   class Railtie < Rails::Railtie
     initializer "copyrighter.helpers" do
