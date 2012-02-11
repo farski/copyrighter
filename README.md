@@ -2,18 +2,23 @@
 
 Handy way to print out copyright dates, like in a footer.
 
-Assuming it's 2012,
+### Examples
 
-On a Mac, the © is option+G.
+The following examples assume it's 2012
 
-<%= © 2012 %> will print "2012"
+    © 2012
+    => "2012"
 
-Next year it will automatically change to "2012 - 2013"
+This will automatically change to "2012 – 2013" next year!
 
-You can give it either an integer or a range of integers.
+    # © will take an integer
+    © 1999
+    => "1999 – 2012"
+    # or a range
+    © 1492..1566
+    => "1492 – 1566"
 
-You can also provide an optional second argument, which is what will join the start and end of the range
+You can also provide an optional second argument, which will be used to join the string
 
-© 1999, '-' => "1999-2012"
-© 1999, ' - ' => "1999 - 2012"
-© 1999, ':' => "1999:2012"
+    © 1999, " to "
+    => "1999 to 2012"
