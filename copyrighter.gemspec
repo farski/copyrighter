@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["chris@farski.com"]
 
   spec.summary       = "Conveniently output copyright date ranges"
-  spec.description   = "Helper method for printed copyright dates, like `Copyright 1999-2012`"
+  spec.description   = "Helper method for printed copyright dates, like 'Copyright 1999-2012'"
   spec.homepage      = "https://github.com/farski/copyrighter"
   spec.license       = "MIT"
 
@@ -24,6 +24,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "minitest", "~> 5.8"
   spec.add_development_dependency "coveralls", "~> 0"
   spec.add_development_dependency "pry", "~> 0.10"
-  spec.add_development_dependency "dotenv", "~> 2.0"
   spec.add_development_dependency "rubocop", "~> 0.34"
 end
