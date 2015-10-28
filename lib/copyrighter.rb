@@ -1,8 +1,9 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
-require 'copyrighter/version'
+require "copyrighter/version"
 
-require 'copyrighter/railtie' if defined?(Rails)
+require "copyrighter/helpers"
+require "copyrighter/railtie" if defined?(Rails)
 
 module Copyrighter
 end
