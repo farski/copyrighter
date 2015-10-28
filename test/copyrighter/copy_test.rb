@@ -16,6 +16,12 @@ describe Copyrighter::Helpers do
     assert_equal [year, " – ", now].join, Class.new.extend(Copyrighter::Helpers).copyright(year)
   end
 
+  it "should return a range when using a Range argument" do
+    first = 2000
+    last = 2010
+    assert_equal [first, " – ", last].join, Class.new.extend(Copyrighter::Helpers).copyright(first..last)
+  end
+
   it "should return a range up to the current year for a previous year argument with a custom separator" do
     year = 2000
     now = Time.now.year
