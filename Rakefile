@@ -14,4 +14,8 @@ task :console do
   Pry.start
 end
 
-task default: :test
+require "rubocop/rake_task"
+RuboCop::RakeTask.new(:analyze)
+
+task checks: [:test, :analyze]
+task default: :checks

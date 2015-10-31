@@ -269,7 +269,7 @@ Style/MethodDefParentheses:
 Style/MethodName:
   Description: Use the configured style when naming methods.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#snake-case-symbols-methods-vars
-  Enabled: true
+  Enabled: false
   EnforcedStyle: snake_case
   SupportedStyles:
   - snake_case
